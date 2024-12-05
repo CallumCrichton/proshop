@@ -8,7 +8,7 @@ const Header = () => {
     <header>
     <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
     <Container>
-      <LinkContainer to='/'>
+      <LinkContainer to="/">
         <Navbar.Brand>
         <img src={logo} alt="ProShop" />
         ProShop
@@ -17,10 +17,10 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <LinkContainer to='/cart'>
+              <LinkContainer to="/cart">
             <Nav.Link ><FaShoppingCart /> Cart</Nav.Link>
             </LinkContainer>
-            <LinkContainer to='/login'>            
+            <LinkContainer to="/login">            
             <Nav.Link><FaUser /> Sign In</Nav.Link>
             </LinkContainer>
             </Nav>
